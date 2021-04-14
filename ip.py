@@ -1,19 +1,19 @@
 # Codigo por m1t (basdo en noob-hackers)
 
-# modulos requeridos
-
-import argsparse
-import request, json
+#modules required
+import argparse
+import requests, json
 import sys
 from sys import argv
 import os
 
-# ni puta idea, mitnez del futuro sabe que pedo
- parser = argparse.ArgumentParser()
- 
- parser.add_argument ("-ip", help="direccion ip", type =str, dest='target', required=true)
- 
- args = parser.parse_args()
+#arguments and parser
+
+parser = argparse.ArgumentParser()
+
+parser.add_argument ("-ip", help= "target/host IP address", type=str, dest='target', required=True )
+
+args = parser.parse_args()
  
  # banner que el mit se diseño 
  print("                   ▄              ▄
