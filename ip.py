@@ -16,7 +16,6 @@ parser.add_argument ("-ip", help= "target/host IP address", type=str, dest='targ
 args = parser.parse_args()
  
  # banner que el mit se diseño 
- print(" Hecho por m1t ")
                 
                 ip= args.target
                 api = "http://ip-api.com/json/"
