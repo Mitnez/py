@@ -18,7 +18,6 @@ args = parser.parse_args()
 #banner of script
 
 print ("         <===[[ coded by N17RO ]]===> \n")
-print ("   <---(( search on youtube Noob Hackers ))--> \n")
 print ("   <---(( Traducido por m1t xdxd ))--> \n")
 
 
@@ -45,7 +44,7 @@ try:
         print("<--------------->")
         print ("[Zona horaria]:", data['timezone'])
         print("<--------------->")
-        print (a, "[Codigo postal]:", data['zip'])
+        print ("[Codigo postal]:", data['zip'])
 
 except KeyboardInterrupt:
         print ('Adios, ten un buen dia :)')
