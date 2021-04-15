@@ -18,7 +18,7 @@ args = parser.parse_args()
 #banner of script
 
 print ("         <===[[ coded by N17RO ]]===> \n")
-print ("   <---(( search on youtube Noob Hackers ))--> \n"+clear)
+print ("   <---(( search on youtube Noob Hackers ))--> \n")
 print ("   <---(( Traducido por m1t xdxd ))--> \n")
 
 
